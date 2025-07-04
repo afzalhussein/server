@@ -1,6 +1,6 @@
 # Checkout 51 Server
 
-This is the backend API for the **Checkout 51** offers app, built with _Node.js_ and _Express_.
+This is the backend API for the **Checkout 51** offers app, built with ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) and ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB).
 
 ## Postman Test
 Following are two examples of testing the API with `sort` values, i.e., `name` and `cashback`:
