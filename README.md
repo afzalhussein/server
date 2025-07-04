@@ -44,6 +44,13 @@ npm run dev
 - `GET /api/offers`  
   Returns a list of available offers as a JSON array.
 
+  - Optional query parameter:  
+    - `sort=name` — Returns offers sorted alphabetically by name  
+    - `sort=cashback` — Returns offers sorted by cashback (descending)  
+    - Any other value for `sort` returns a 400 error with `{ error: "Invalid sort parameter" }`
+
+  - If no `sort` parameter is provided, offers are returned in their original order.
+
 ## Project Structure
 
 - `app.js` – Main Express app entry point.
@@ -53,6 +60,15 @@ npm run dev
 ## Environment Variables
 
 - `PORT` – The port number for the server (set in `.env`).
+
+## Running Tests
+
+Tests are located in the `tests` directory.  
+To run tests:
+
+```sh
+npm test
+```
 
 ## License
 
